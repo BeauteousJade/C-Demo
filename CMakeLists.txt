@@ -3,4 +3,4 @@ project(C_Demo C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(C_Demo code/main.c code/memory/MemoryTest.c code/memory/alloc.h code/memory/alloc.c)
+add_executable(C_Demo code/main.c code/memory/memoryTest.c code/memory/alloc.h code/memory/alloc.c code/memory/strdupTest.c)

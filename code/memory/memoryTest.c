@@ -6,7 +6,7 @@
 #include <malloc.h>
 //#include "alloc.h"
 
-int main() {
+int main_memory_test() {
 //    int *p = MALLOC(25, int); // 使用自定义安全方法,申请25个int的大小。
 
     int *p = malloc(100); // 申请100个字节大小。如果是在整型为4个字节的机器上，那就是25个元素的数组。
