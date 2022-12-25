@@ -18,7 +18,7 @@ char *strdup(const char *str) {
 }
 
 
-int main() {
+int main_strdup_test() {
     char *str = "庞柄宇123";
     char *new_str = strdup(str);
     printf("%s\n", new_str);
