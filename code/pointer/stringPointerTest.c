@@ -7,7 +7,7 @@
 /**
  * 字符串指针。
  */
-int main() {
+int main_string_pointer_test() {
 
     // 指针+1， 原来指向x，现在指向y。
     char *c1 = "xyz" + 1;
