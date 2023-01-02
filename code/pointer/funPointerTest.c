@@ -42,7 +42,10 @@ void test(int (*f)(int, int), int a, int b) {
     printf("res:%d\n", res);
 }
 
-int main() {
+/**
+ * 函数指针测试类。
+ */
+int main_fun_pointer_test() {
     int (*pf)(int) = &f0;
 
     // 三种方式都是正确的。
