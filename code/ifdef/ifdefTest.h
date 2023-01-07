@@ -30,6 +30,6 @@
 #elif TEST_ELIF // elif表示的意思是：如果TEST_ELIF为true(即非0)，就执行语句2
 //--语句2--
 #else // 上述条件都不符合，就执行语句3
-// --语句3--
+ #error no option elected // 生成错误信息，
 #endif
 
