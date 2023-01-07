@@ -8,7 +8,9 @@
 #include "stdio.h"
 #include "alloc.h"
 
-#undef malloc // 增加#define是为了保护malloc的调用不被随便调用，所以要在用之前加入#undef指令
+// 增加#define是为了保护malloc的调用不被随便调用，所以要在用之前加入#undef指令
+// 因为malloc 被宏定义了，需要解除宏定义，才能正常使用。
+#undef malloc
 
 void *alloc(size_t size) {
     // 申请所需的内存，并且检查是否分配成功。
